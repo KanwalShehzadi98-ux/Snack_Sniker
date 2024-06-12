@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snack_Sniker", "Snack_Sniker\Snack_Sniker.csproj", "{4FA91822-1CC9-4DDC-A44F-5A7B1F133BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dblayer", "Dblayer\Dblayer.csproj", "{F05D6CD7-1926-4F1D-AE86-C28166AAF76C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FA91822-1CC9-4DDC-A44F-5A7B1F133BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA91822-1CC9-4DDC-A44F-5A7B1F133BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA91822-1CC9-4DDC-A44F-5A7B1F133BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA91822-1CC9-4DDC-A44F-5A7B1F133BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05D6CD7-1926-4F1D-AE86-C28166AAF76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05D6CD7-1926-4F1D-AE86-C28166AAF76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05D6CD7-1926-4F1D-AE86-C28166AAF76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05D6CD7-1926-4F1D-AE86-C28166AAF76C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9EC86C4-4FF2-4590-983F-D84FEE1F50D4}
+	EndGlobalSection
+EndGlobal

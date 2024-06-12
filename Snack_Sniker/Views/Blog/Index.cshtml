@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Snack_Sniker.Models.BlogPost>
+
+@{
+    ViewBag.Title = "Blog - MyBlogs";
+}
+
+<h2>Blog</h2>
+
+@foreach (var post in Model)
+{
+    <div class="blog-post">
+        <h3>@Html.DisplayFor(modelItem => post.Title)</h3>
+       
+        <div class="blog-content">
+            @Html.DisplayFor(modelItem => post.Content)
+        </div>
+        <a href="@Url.Action("Details", "Blog", new { id = post.Id })">Read more</a>
+    </div>
+}
